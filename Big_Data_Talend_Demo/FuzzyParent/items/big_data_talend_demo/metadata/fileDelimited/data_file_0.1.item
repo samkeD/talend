@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_WuCy4KdaEeeOJLNIU5u6IQ" name="data_file" dataPackage="_WuEBAKdaEeeOJLNIU5u6IQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/f4839870/Desktop/Data.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" RemoveEmptyRow="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_WuEBAKdaEeeOJLNIU5u6IQ" name="default" dataManager="_WuCy4KdaEeeOJLNIU5u6IQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WuEBAadaEeeOJLNIU5u6IQ" id="_I2XRYKdaEeeOJLNIU5u6IQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WuEBAqdaEeeOJLNIU5u6IQ" label="Name" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WuEBA6daEeeOJLNIU5u6IQ" label="Surname" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WuEBBKdaEeeOJLNIU5u6IQ" label="Age" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
