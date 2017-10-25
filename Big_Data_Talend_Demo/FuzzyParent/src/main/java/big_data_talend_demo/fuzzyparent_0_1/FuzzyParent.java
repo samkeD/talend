@@ -516,7 +516,7 @@ List<String> ages = new ArrayList<>();
 StringBuilder  differences = new StringBuilder("");
 int count = 0;
 String header = ""+row1;
-final String FILENAME = "C:\\Users\\f4839870\\Desktop\\differences.txt"; 
+final String FILENAME = "C:\\Users\\f4839870\\Desktop\\differences_jenkins.txt"; 
 
 
 
@@ -837,7 +837,7 @@ end_Hash.put("tRunJob_1", System.currentTimeMillis());
 
                 bufferedWriter.write(differences.toString());
 
-                System.out.println("Done writing differences file...");
+                System.out.println("Done writing differences file..."+count+" found");
 
             } catch (IOException e) {
                 e.printStackTrace();
